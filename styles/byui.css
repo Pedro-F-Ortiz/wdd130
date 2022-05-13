@@ -1,0 +1,60 @@
+
+/* *{
+    border: 2px solid firebrick;
+} */ 
+
+header styles
+nav, footer {
+    background-color: steelblue;
+    padding: 10px;
+}
+
+nav a{
+    color: black;
+    margin: 70px;
+    text-decoration: none;
+    font: 2em;
+}
+
+/* a:hover is called below with #active since they use the same color schema */
+/* a:hover{
+    background-color: white;
+    color: steelblue;
+} */
+
+/* main styles */
+h1{
+    color: steelblue;
+    text-align: center;
+}
+
+img {
+    width: 80%;
+    border: 4px solid steelblue; 
+    display: block;
+    margin: 0 auto;
+}
+
+p {
+    padding: 10px;
+    width: 80%;
+    text-align: center;
+    margin: 50px auto;
+}
+
+/* this is calling the html class: main-para from html: line 19 */
+.main-para {
+    font-size: 1.5em;
+}
+
+/* this is calling the html id: active from html: line 10 */
+/* In css line 19-22 since a:hover uses the same color scheme you can simply do , a:hover so you don't have to repeat yourself. */
+#active, a:hover {
+    background-color: white;
+    color: steelblue;
+}
+
+footer p {
+    font-size: 20px;
+    color: white;
+}
