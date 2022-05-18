@@ -2,18 +2,25 @@
 /* *{
     border: 2px solid firebrick;
 } */ 
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rock+Salt&display=swap');
+body {
+    font-family: Roboto, serif; 
+    margin: 0px;
+}
 
-header styles
 nav, footer {
     background-color: steelblue;
-    padding: 10px;
+    padding: 25px;
+    text-align: center;
 }
 
 nav a{
     color: black;
-    margin: 70px;
+    /* margin: 70px; */
     text-decoration: none;
-    font: 2em;
+    font-size: 1.5em;
+    padding: 10px;
+    background-color: steelblue;
 }
 
 /* a:hover is called below with #active since they use the same color schema */
@@ -26,6 +33,8 @@ nav a{
 h1{
     color: steelblue;
     text-align: center;
+    font-family: "Rock Salt, Bradley Hand", cursive;
+    margin: 50px 0;
 }
 
 img {
@@ -33,6 +42,8 @@ img {
     border: 4px solid steelblue; 
     display: block;
     margin: 0 auto;
+    border-radius: 9px;
+    box-shadow: 15px 15px 10px #ccc;
 }
 
 p {
@@ -49,12 +60,13 @@ p {
 
 /* this is calling the html id: active from html: line 10 */
 /* In css line 19-22 since a:hover uses the same color scheme you can simply do , a:hover so you don't have to repeat yourself. */
-#active, a:hover {
-    background-color: white;
-    color: steelblue;
+a:hover {
+    background-color: steelblue;
+    color: yellow;
 }
 
 footer p {
     font-size: 20px;
+    margin: 20px auto;
     color: white;
 }
