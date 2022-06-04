@@ -37,7 +37,6 @@ nav a {
 
 main section {
     text-align: center;
-    width: 0 auto;
 }
 
 main section img {
@@ -46,7 +45,7 @@ main section img {
 
 body {
     background-color: #5CD171;
-    font-family: Bebas Neue;
+    font-family: "Bebas Neue";
     font-size: 22px;
     margin: 0;
     padding: 0;
@@ -110,7 +109,7 @@ footer {
 
 .home-title {
     color: rgb(199, 157, 16); 
-    font-family: Bebas Neue;
+    font-family: "Bebas Neue";
     font-size: 2em;
     margin-top: 10px;
 }
