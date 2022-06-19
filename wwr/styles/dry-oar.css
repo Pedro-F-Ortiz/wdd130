@@ -125,12 +125,12 @@ h4 {
 
 .msg {
     background-color: #6f7364;
-    /* line-height: 1.5em; */
+    line-height: 1.5em;
     padding: 20px;
     grid-column: 6/10;
     grid-row: 6/7;
     box-shadow: 5px 5px 10px #6f7364;
-}
+} 
 
 .msg h2 {
     background-color: #6f7364;
@@ -252,14 +252,25 @@ footer h3 a:hover {
 
 /* Page 2 Edits */
 
+#content2 {
+    max-width: 1600px;
+    margin: 0 auto;
+    }
+
 .reviews-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(5, 1fr);
 }
 
 .idaho {
     grid-column: 2/3;
     text-align: center;
+}
+.background2 {
+    background-color: #9EDFDF;
+    grid-column: 2/3;
+    grid-row: 4/5;
+    height: 725px;
 }
 
 .img_review1 {
