@@ -34,6 +34,10 @@ nav a {
 .button-box {
     text-align: center;
 }
+.button-box_pg2 {
+    text-align: center;
+    margin: 40px;
+}
 
 main section {
     text-align: center;
@@ -200,6 +204,10 @@ footer .social img {
     grid-column: 2/3;
     grid-row: 1/2;
     margin-top: 100px;
+}
+#hero-msg h2 {
+    text-align: center;
+    color: rgb(199, 157, 16)
 }
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
