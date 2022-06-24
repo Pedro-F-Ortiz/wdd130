@@ -5,8 +5,81 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Site</title>
+    <link rel="stylesheet" href="styles/index.css">
 </head>
 <body>
-    <h1>This is going to be my Personal Site</h1>
+
+    <header>
+        <!-- My header will replace the Home page of this assignment since I am doing more than just a header with a logo and buttons.-->
+        <h1>Pedro Ortiz</h1>
+        <img src="images/programming.png" alt="Logo image">
+        <div id="Quote">
+            <p>"O Lord, that thou hast all power, and can do whatsoever thou wilt for the benefit of man; therefore touch these stones, O Lord, with thy finger, and prepare them that they may shine forth in darkness." (Ether 3:4)</p>
+            <img src="images/stone.jpeg" alt="glowing stone">
+        </div>
+
+        <!-- My buttons will have a jump to feature to the sections listed below that will replace the need to have page 2,3. Resume is a working link to my resume in PDF version.-->
+        <div class="button-box">
+            <a class="resume" href="images/resume.pdf">Resume</a>
+        </div>
+        <div class="button-box">
+            <a class="aboutme">About me</a>
+        </div>
+        <div class="button-box">
+            <a class="projects">Projects</a>
+        </div>
+        <div class="button-box">
+            <a class="contactme">Contact me</a>
+        </div>
+    </header>
+
+    <main class="home-grid">
+
+        <!-- My about me section is going to look like the mountains image from "dry-oar.html" with the text overlapping the image.-->
+        <div id="about_background"></div>
+        <img class="aboutme" src="images/ortiz.png" alt="ortiz family">
+        <section class="about_msg">
+            <h2>About me:</h2>
+            <p>Here I will add a biography paragraph about me.</p>
+        </section>
+       
+        <!-- The goal is to replace the project sections in the near future with actual projects that I have in mind.-->
+        <!-- They will not be linked to anything just yet but I want to make them look like the "dry-oar.html" River, Camping, Rapids sections with a similar effect when hovering over the image that when clicked will eventually take the user to the page of that project.-->
+        <div id="Projects">
+            <h2>Projects</h2>
+            <section class="project1">
+            <img id="project1" src="images/programing_screens.jpeg" alt="3D programing icons">
+            <p>Here I will add a description of what this project is about with some details.</p>
+        </section>
+        <section class="project2">
+            <img id="project2" src="images/programming101.png" alt="programing text in 3d over laptop keyboard">
+            <p>Here I will add a description of what this project is about with some details.</p>
+        </section>
+        <section class="project3">
+            <img id="project3" src="images/dev.png" alt="icons of programming languages">
+            <p>Here I will add a description of what this project is about with some details.</p>
+        </section>
+        <section class="project4">
+            <img id="project4" src="images/rsz_webdev.png" alt="virtual web dev screen">
+            <p>Here I will add a description of what this project is about with some details.</p>
+        </section>
+        </div>
+
+        <footer>
+            <div class="social">
+                <a href="https://facebook.com" target="_blank">
+                    <img src="images/facebook.png" alt="fb icon">
+                </a>
+                <a href="https://twitter.com" target="_blank">
+                    <img src="images/twitter.png" alt="twitter logo">
+                </a>
+                <a href="https://instagram.com" target="_blank">
+                    <img src="images/instagram.png" alt="instagram icon">
+                </a>
+            </div>
+            <h3>Personal Portfolio &copy; 2022 - Pedro Ortiz</h3>
+            <h3> <a>Contact me</a></h3>
+        </footer>
+    </main>
 </body>
 </html>
