@@ -60,7 +60,7 @@
             <p>Here I will add a description of what this project is about with some details.</p>
         </section>
         <section class="project4">
-            <img id="project4" src="images/rsz_webdev.png" alt="virtual web dev screen">
+            <img id="project4" src="images/webdev.png" alt="virtual web dev screen">
             <p>Here I will add a description of what this project is about with some details.</p>
         </section>
         </div>
@@ -76,9 +76,45 @@
                 <a href="https://instagram.com" target="_blank">
                     <img src="images/instagram.png" alt="instagram icon">
                 </a>
+                <a href="https://www.linkedin.com/in/pedro-ortiz-957a1497">
+                    <img src="images/linkedin.png" alt="IOG Linkedin" style="width:22px;height:22px;">
+                </a>
             </div>
             <h3>Personal Portfolio &copy; 2022 - Pedro Ortiz</h3>
-            <h3> <a>Contact me</a></h3>
+            <div class="fcf-body">
+                <div id="fcf-form">
+                <h3 class="fcf-h3">Contact Me</h3>
+                <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
+                    <div class="fcf-form-group">
+                        <label for="Name" class="fcf-label">Name</label>
+                        <div class="fcf-input-group">
+                            <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+                        </div>
+                    </div>
+                    <div class="fcf-form-group">
+                        <label for="Email" class="fcf-label">Email</label>
+                        <div class="fcf-input-group">
+                            <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+                        </div>
+                    </div>
+                    <div class="fcf-form-group">
+                        <label for="Phone" class="fcf-label">Phone Number</label>
+                        <div class="fcf-input-group">
+                            <input type="text" id="Phone" name="Phone" class="fcf-form-control" required>
+                        </div>
+                    </div>
+                    <div class="fcf-form-group">
+                        <label for="Message" class="fcf-label">Your Message</label>
+                        <div class="fcf-input-group">
+                            <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+                        </div>
+                    </div>
+                    <div class="fcf-form-group">
+                        <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send Message</button>
+                    </div>    
+                </form>
+                </div>
+            </div>
         </footer>
     </main>
 </body>
