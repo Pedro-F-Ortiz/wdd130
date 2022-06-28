@@ -26,7 +26,7 @@ nav{
 
 nav a {
     text-align: center;
-    color: rgb(199, 157, 16); 
+    color: black; 
     text-decoration-line: underline;
     padding: 35px;
 }
@@ -63,11 +63,12 @@ h2{
 header {
     display: grid;
     grid-template-columns: 150px auto;
+    background-color: #00000029
 }
 
 nav a:hover {
     background-color: #9EDFDF;
-    color: #396E94;
+    color: #605020;
 }
 
 .book {
@@ -82,7 +83,7 @@ nav a:hover {
 
 .join {
     background-color: #9EDFDF;
-    color: rgb(199, 157, 16); 
+    color: #605020; 
     text-decoration: none;
     font-size: 15px;
     padding: 10px 30px;
@@ -112,7 +113,7 @@ footer {
 }
 
 .home-title {
-    color: rgb(199, 157, 16); 
+    color: #605020; 
     font-family: "Bebas Neue";
     font-size: 2em;
     margin-top: 10px;
@@ -124,7 +125,7 @@ footer {
 }
 
 h4 {
-    color: rgb(199, 157, 16);
+    color: #605020;
 }
 
 .msg {
@@ -207,11 +208,11 @@ footer .social img {
 }
 #hero-msg h2 {
     text-align: center;
-    color: rgb(199, 157, 16)
+    color: #605020
 }
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
-    color: rgb(199, 157, 16)
+    color: #605020
 }
 
 footer h3 a:hover {
