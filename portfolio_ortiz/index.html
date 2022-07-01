@@ -6,34 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Site</title>
     <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <div id="content">
-        <header>
+        <header class="header-grid">
             <!-- My header will replace the Home page of this assignment since I am doing more than just a header with a logo and buttons.-->
             <h1>Pedro Ortiz</h1>
             <img src="images/programming.png" alt="Logo image">
-             <div id="Quote">
-                <p>"O Lord, that thou hast all power, and can do whatsoever thou wilt for the benefit of man; therefore touch these stones, O Lord, with thy finger, and prepare them that they may shine forth in darkness." (Ether 3:4)</p>
-                <img src="images/stone.jpeg" alt="glowing stone">
-            </div>
+            <p id="quote">"O Lord, that thou hast all power, and can do whatsoever thou wilt for the benefit of man; therefore touch these stones, O Lord, with thy finger, and prepare them that they may shine forth in darkness." (Ether 3:4)</p>
+            <img id="quote-img" src="images/stone.jpeg" alt="glowing stone">
 
             <!-- My buttons will have a jump to feature to the sections listed below that will replace the need to have page 2,3. Resume is a working link to my resume in PDF version.-->
-            <div class="button-box">
-                <a class="resume" href="images/resume.pdf">Resume</a>
-            </div>
-            <div class="button-box">
-                <a class="aboutme">About me</a>
-            </div>
-            <div class="button-box">
-                <a class="projects">Projects</a>
-            </div>
-            <div class="button-box">
-                <a class="contactme">Contact me</a>
-            </div>
+            <nav> 
+                <button type="button" class="block">
+                    <a href="images/resume.pdf">Resume</a>
+                </button>
+                <p></p>
+                <button type="button" class="block">
+                    <a href=#"LinkToAboutMe">About Me</a>
+                </button>
+                <p></p>
+                <button type="button" class="block">
+                    <a href=#"LinkToProjectSection">Projects</a>
+                </button>
+                <p></p>
+                <button type="button" class="block">
+                    <a href= #"LinkToContactCard">Contact</a>
+                </button>
+            </nav>
+
         </header>
 
-        <main class="home-grid">
+        <main class="main-grid">
 
             <!-- My about me section is going to look like the mountains image from "dry-oar.html" with the text overlapping the image.-->
             <div id="about_background"></div>

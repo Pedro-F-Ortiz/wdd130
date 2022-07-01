@@ -1,3 +1,6 @@
+/* *{
+    border: 2px solid firebrick;
+}  */
 
 @import url('https://fonts.googleapis.com/css2?family=Charis+SIL&family=Roboto+Condensed:wght@300&display=swap');
 
@@ -10,23 +13,87 @@
   --accent3-color: #8B8C89;
   --heading-font: "Charis SIL";
   --paragraph-font: Roboto Condensed, Helvetica, sans-serif;
-
-  /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #274C77;  /* headlines on a white background */ 
-  --headline-color-on-color: #E7ECEF; /* headlines on a colored background */ 
-  --paragraph-color-on-white: black; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: #E7ECEF; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #274C77;
-  --nav-link-color: #E7ECEF;
-  --nav-background-color: #274C77;
-  --nav-hover-link-color: #8B8C89;
-  --nav-hover-background-color: #A3CEF1;
 }
 
 #content {
     max-width: 1600px;
     margin: 0 auto;
 }
+
+/* This changes the whole background color of the page */
+body {
+    
+    background-color: #A3CEF1;
+}
+
+/* This portion edits the header section of my page only */
+.header-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    justify-items: center;
+}
+header {
+    background-color: #6096BA;
+}
+
+/* This edits my name and logo only */
+header H1 {
+    font-size: 350%;
+    font-family: "Charis SIL";
+    grid-column: 1/2;
+    grid-row: 1/2;
+    text-align: center;
+
+}
+header img {
+    width: 50%;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    width: 70%;
+}
+
+/* This edits the quote section only */
+#quote  {
+    grid-column: 2/4;
+    grid-row: 1/2;
+    text-align: center;
+    font-size: x-large;
+    font-family: Roboto Condensed;
+    width: 70%;
+    background-color: #274C77;
+    color: #E7ECEF;
+    padding: 10px;
+}
+#quote-img  {
+    grid-column: 2/4;
+    grid-row: 2/3;
+    padding: 10px;
+    width: 50%;
+    
+    }
+
+/* This edits the buttons section only */
+nav {
+    grid-column: 4/5;
+    grid-row: 1/3;
+}
+nav a {
+    text-align: center;
+    color: #E7ECEF;
+    font-family: Roboto Condensed;
+}
+.block {
+    display: block;
+    width: 100%;
+    background-color: #274C77;
+    padding: 15px 30px;
+    font-size: x-large;
+    text-align: center;
+    animation: blink 3s ease-in-out infinite;}@keyframes blink 
+    {0% {opacity: 0.3;}25% {opacity: 0.6;}50% {opacity: 1.0;}75% {opacity: 0.6;}100% {opacity: 0.3}}
+
+
 
 
 /* Contact Me form CSS */
