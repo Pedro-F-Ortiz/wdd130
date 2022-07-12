@@ -35,6 +35,8 @@ body {
 }
 header {
     background-color: #6096BA;
+    margin: 20px auto;
+
 }
 
 /* This edits my name and logo only */
@@ -93,7 +95,58 @@ nav a {
     animation: blink 3s ease-in-out infinite;}@keyframes blink 
     {0% {opacity: 0.3;}25% {opacity: 0.6;}50% {opacity: 1.0;}75% {opacity: 0.6;}100% {opacity: 0.3}}
 
+ /* This edits the about me section */
+.about {
+    background-color: #6096BA;
+    margin: 20px auto;
+    padding: 20px;
+    height: auto;
+}
+#aboutme {
+    float: left;
+}
+#about-msg h2 {
+    text-align: center;
+    font-size: xxx-large;
+}
+#about-msg {
+    font-family: Roboto Condensed;
+    font-size: large;
+    background-color: #274C77;
+    color: #E7ECEF;
+    padding: 10px;
+}
 
+/* This edits the Projects section */
+#projects h2 {
+    justify-items: center;
+    text-align: center;
+    font-size: xxx-large;
+    color: #274C77;
+}
+.projects-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* align-items: center; */
+    /* justify-items: center; */
+    background-color: #274C77;
+}
+
+#project1 {
+    grid-columns: 1/2;
+}
+
+#project2 {
+    grid-column: 2/3;
+}
+
+#project3 {
+    grid-columns: 1/2;
+}
+
+#project4 {
+    grid-columns: 2/3;
+}
 
 
 /* Contact Me form CSS */
