@@ -20,6 +20,10 @@
     margin: 0 auto;
 }
 
+/* * {
+    margin: 0;
+    } */
+
 /* This changes the whole background color of the page */
 body {
     
@@ -86,11 +90,12 @@ nav a {
 }
 .block {
     display: block;
-    width: 100%;
+    width: 90px;
     background-color: #274C77;
     padding: 15px 30px;
     font-size: x-large;
     text-align: center;
+    margin: 20px auto;
     animation: blink 3s ease-in-out infinite;}@keyframes blink 
     {0% {opacity: 0.3;}25% {opacity: 0.6;}50% {opacity: 1.0;}75% {opacity: 0.6;}100% {opacity: 0.3}}
 
@@ -137,7 +142,7 @@ nav a {
 }
 
 #project1 {
-    grid-columns: 1/2;
+    grid-column: 1/2;
     float: left;
     width: 60%; 
     height: 200px;
@@ -153,7 +158,7 @@ nav a {
 }
 
 #project3 {
-    grid-columns: 1/2;
+    grid-column: 1/2;
     float: left;
     width: 60%;
     height: 200px;
@@ -161,7 +166,7 @@ nav a {
 }
 
 #project4 {
-    grid-columns: 2/3;
+    grid-column: 2/3;
     float: left;
     width: 60%;
     height: 200px;
