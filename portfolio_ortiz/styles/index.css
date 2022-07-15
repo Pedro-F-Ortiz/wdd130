@@ -83,12 +83,12 @@ nav {
     grid-column: 4/5;
     grid-row: 1/3;
 }
-nav a {
+nav a, .footer-block a {
     text-align: center;
     color: #E7ECEF;
     font-family: Roboto Condensed;
 }
-.block {
+.block, .footer-block a {
     display: block;
     width: 90px;
     background-color: #274C77;
@@ -191,7 +191,7 @@ footer {
     background-color: #6096BA;
     margin: 20px auto;
 }
-.footer-block {
+/* .footer-block {
     display: block;
     width: 100%;
     background-color: #274C77;
@@ -199,7 +199,7 @@ footer {
     font-size: x-large;
     text-align: center;
     animation: blink 3s ease-in-out infinite;}@keyframes blink 
-    {0% {opacity: 0.3;}25% {opacity: 0.6;}50% {opacity: 1.0;}75% {opacity: 0.6;}100% {opacity: 0.3}}
+    {0% {opacity: 0.3;}25% {opacity: 0.6;}50% {opacity: 1.0;}75% {opacity: 0.6;}100% {opacity: 0.3}} */
 
 
 /* Contact Me form CSS */
