@@ -152,7 +152,6 @@ nav a, .footer-block a {
     grid-column: 1/2;
     float: left;
     width: 60%; 
-    height: 200px;
     padding: 5px;
 }
 
@@ -160,7 +159,6 @@ nav a, .footer-block a {
     grid-column: 2/3;
     float: left;
     width: 60%;
-    height: 200px;
     padding: 5px;
 }
 
@@ -168,7 +166,6 @@ nav a, .footer-block a {
     grid-column: 1/2;
     float: left;
     width: 60%;
-    height: 200px;
     padding: 5px;
 }
 
@@ -176,7 +173,6 @@ nav a, .footer-block a {
     grid-column: 2/3;
     float: left;
     width: 60%;
-    height: 200px;
     padding: 5px;
 }
 
